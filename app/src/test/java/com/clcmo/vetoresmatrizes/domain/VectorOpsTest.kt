@@ -1,4 +1,4 @@
-package com.clcmo.vetores-matrizes.domain
+package com.clcmo.vetoresmatrizes.domain
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

@@ -1,4 +1,4 @@
-package com.clcmo.vetores-matrizes.ui
+package com.clcmo.vetoresmatrizes.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.aspectRatio
@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
-import com.clcmo.vetores-matrizes.domain.Vec
+import com.clcmo.vetoresmatrizes.domain.Vec
 import kotlin.math.abs
 import kotlin.math.atan2
 import kotlin.math.ceil

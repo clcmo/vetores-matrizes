@@ -1,4 +1,4 @@
-package com.clcmo.vetores-matrizes.domain
+package com.clcmo.vetoresmatrizes.domain
 
 /** Matriz imutável, armazenada em ordem de linhas (row-major). */
 class Matrix(val rows: Int, val cols: Int, values: List<Double>) {

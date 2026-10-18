@@ -1,4 +1,4 @@
-package com.clcmo.vetores-matrizes.domain
+package com.clcmo.vetoresmatrizes.domain
 
 /** Operações com matrizes. Cada uma devolve o resultado e o passo a passo. */
 object MatrixOps {

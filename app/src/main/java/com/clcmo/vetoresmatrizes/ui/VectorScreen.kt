@@ -1,4 +1,4 @@
-package com.clcmo.vetores-matrizes.ui
+package com.clcmo.vetoresmatrizes.ui
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.clcmo.vetores-matrizes.domain.fmt
+import com.clcmo.vetoresmatrizes.domain.fmt
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

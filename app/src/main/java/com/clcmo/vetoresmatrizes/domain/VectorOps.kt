@@ -1,4 +1,4 @@
-package com.clcmo.vetores-matrizes.domain
+package com.clcmo.vetoresmatrizes.domain
 
 import kotlin.math.acos
 import kotlin.math.sqrt

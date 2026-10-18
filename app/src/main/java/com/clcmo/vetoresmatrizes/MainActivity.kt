@@ -1,4 +1,4 @@
-package com.clcmo.vetores-matrizes
+package com.clcmo.vetoresmatrizes
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,9 +18,9 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import com.clcmo.vetores-matrizes.ui.ExerciseScreen
-import com.clcmo.vetores-matrizes.ui.MatrixScreen
-import com.clcmo.vetores-matrizes.ui.VectorScreen
+import com.clcmo.vetoresmatrizes.ui.ExerciseScreen
+import com.clcmo.vetoresmatrizes.ui.MatrixScreen
+import com.clcmo.vetoresmatrizes.ui.VectorScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

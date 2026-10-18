@@ -1,4 +1,4 @@
-package com.clcmo.vetores-matrizes.ui
+package com.clcmo.vetoresmatrizes.ui
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
@@ -10,9 +10,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.clcmo.vetores-matrizes.domain.Matrix
-import com.clcmo.vetores-matrizes.domain.Step
-import com.clcmo.vetores-matrizes.domain.fmt
+import com.clcmo.vetoresmatrizes.domain.Matrix
+import com.clcmo.vetoresmatrizes.domain.Step
+import com.clcmo.vetoresmatrizes.domain.fmt
 
 @Composable
 fun Stepper(label: String, value: Int, range: IntRange, modifier: Modifier = Modifier, onChange: (Int) -> Unit) {
