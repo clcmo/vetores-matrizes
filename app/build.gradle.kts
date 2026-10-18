@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.clcmo.vetores-matrizes"
+    namespace = "com.clcmo.vetoresmatrizes"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.clcmo.vetores-matrizes"
+        applicationId = "com.clcmo.vetoresmatrizes"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

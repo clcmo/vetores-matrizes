@@ -1,4 +1,4 @@
-package com.clcmo.vetores-matrizes.domain
+package com.clcmo.vetoresmatrizes.domain
 
 /** Vetor com qualquer número de componentes. */
 data class Vec(val components: List<Double>) {
