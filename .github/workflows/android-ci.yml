@@ -1,0 +1,17 @@
+name: android-ci
+run-name: ${{ github.actor }} rodou o CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+      # Depois de gerar o Gradle Wrapper no Android Studio, troque por: ./gradlew :app:testDebugUnitTest
+      - run: gradle :app:testDebugUnitTest
