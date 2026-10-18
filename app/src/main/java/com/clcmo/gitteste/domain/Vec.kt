@@ -1,4 +1,4 @@
-package com.clcmo.gitteste.domain
+package com.clcmo.vetores-matrizes.domain
 
 /** Vetor com qualquer número de componentes. */
 data class Vec(val components: List<Double>) {

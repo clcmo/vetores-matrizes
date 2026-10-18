@@ -1,4 +1,4 @@
-package com.clcmo.gitteste.domain
+package com.clcmo.vetores-matrizes.domain
 
 import kotlin.math.abs
 import kotlin.math.floor

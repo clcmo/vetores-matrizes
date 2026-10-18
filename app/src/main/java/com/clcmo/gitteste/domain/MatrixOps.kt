@@ -1,4 +1,4 @@
-package com.clcmo.gitteste.domain
+package com.clcmo.vetores-matrizes.domain
 
 /** Operações com matrizes. Cada uma devolve o resultado e o passo a passo. */
 object MatrixOps {

@@ -1,4 +1,4 @@
-package com.clcmo.gitteste.ui
+package com.clcmo.vetores-matrizes.ui
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
@@ -10,9 +10,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.clcmo.gitteste.domain.Matrix
-import com.clcmo.gitteste.domain.Step
-import com.clcmo.gitteste.domain.fmt
+import com.clcmo.vetores-matrizes.domain.Matrix
+import com.clcmo.vetores-matrizes.domain.Step
+import com.clcmo.vetores-matrizes.domain.fmt
 
 @Composable
 fun Stepper(label: String, value: Int, range: IntRange, modifier: Modifier = Modifier, onChange: (Int) -> Unit) {

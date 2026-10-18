@@ -1,9 +1,9 @@
 # Matrizes e Vetores — app Android para aprender fazendo
 
-[![GitHub license](https://img.shields.io/github/license/clcmo/gitteste?style=for-the-badge)](https://github.com/clcmo/gitteste)
-[![GitHub stars](https://img.shields.io/github/stars/clcmo/gitteste?style=for-the-badge)](https://github.com/clcmo/gitteste/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/clcmo/gitteste?style=for-the-badge)](https://github.com/clcmo/gitteste/network)
-[![GitHub issues](https://img.shields.io/github/issues/clcmo/gitteste?style=for-the-badge)](https://github.com/clcmo/gitteste/issues)
+[![GitHub license](https://img.shields.io/github/license/clcmo/vetores-matrizes?style=for-the-badge)](https://github.com/clcmo/vetores-matrizes)
+[![GitHub stars](https://img.shields.io/github/stars/clcmo/vetores-matrizes?style=for-the-badge)](https://github.com/clcmo/vetores-matrizes/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/clcmo/vetores-matrizes?style=for-the-badge)](https://github.com/clcmo/vetores-matrizes/network)
+[![GitHub issues](https://img.shields.io/github/issues/clcmo/vetores-matrizes?style=for-the-badge)](https://github.com/clcmo/vetores-matrizes/issues)
 
 App Android (Kotlin + Jetpack Compose, arquitetura MVVM) que ensina vetores e matrizes com **passo a passo** em cada
 operação.
@@ -20,7 +20,7 @@ operação.
 ## Estrutura
 
 ```
-app/src/main/java/com/clcmo/gitteste/
+app/src/main/java/com/clcmo/vetores-matrizes/
 ├── domain/   # Matrix, Vec, MatrixOps, VectorOps — Kotlin puro, testável sem Android
 ├── ui/       # ViewModels (estado) + telas Compose
 └── MainActivity.kt

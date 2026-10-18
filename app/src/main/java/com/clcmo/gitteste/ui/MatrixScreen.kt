@@ -1,4 +1,4 @@
-package com.clcmo.gitteste.ui
+package com.clcmo.vetores-matrizes.ui
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*

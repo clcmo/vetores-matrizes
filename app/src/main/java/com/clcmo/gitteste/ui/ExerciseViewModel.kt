@@ -1,9 +1,9 @@
-package com.clcmo.gitteste.ui
+package com.clcmo.vetores-matrizes.ui
 
 import androidx.lifecycle.ViewModel
-import com.clcmo.gitteste.domain.Explained
-import com.clcmo.gitteste.domain.Matrix
-import com.clcmo.gitteste.domain.MatrixOps
+import com.clcmo.vetores-matrizes.domain.Explained
+import com.clcmo.vetores-matrizes.domain.Matrix
+import com.clcmo.vetores-matrizes.domain.MatrixOps
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

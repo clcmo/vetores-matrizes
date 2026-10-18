@@ -1,4 +1,4 @@
-package com.clcmo.gitteste.ui
+package com.clcmo.vetores-matrizes.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState

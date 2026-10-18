@@ -1,11 +1,11 @@
-package com.clcmo.gitteste.ui
+package com.clcmo.vetores-matrizes.ui
 
 import androidx.lifecycle.ViewModel
-import com.clcmo.gitteste.domain.Explained
-import com.clcmo.gitteste.domain.Step
-import com.clcmo.gitteste.domain.Vec
-import com.clcmo.gitteste.domain.VectorOps
-import com.clcmo.gitteste.domain.fmt
+import com.clcmo.vetores-matrizes.domain.Explained
+import com.clcmo.vetores-matrizes.domain.Step
+import com.clcmo.vetores-matrizes.domain.Vec
+import com.clcmo.vetores-matrizes.domain.VectorOps
+import com.clcmo.vetores-matrizes.domain.fmt
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
