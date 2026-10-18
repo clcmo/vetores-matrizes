@@ -1,13 +1,36 @@
-# Insert Title
+# Matrizes e Vetores — app Android para aprender fazendo
 
-[![GitHub license](https://img.shields.io/github/license/clcmo/web?style=for-the-badge)](https://github.com/clcmo/web)
-[![GitHub stars](https://img.shields.io/github/stars/clcmo/web?style=for-the-badge)](https://github.com/clcmo/web/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/clcmo/web?style=for-the-badge)](https://github.com/clcmo/web/network)
-[![GitHub issues](https://img.shields.io/github/issues/clcmo/web?style=for-the-badge)](https://github.com/clcmo/web/issues)
-[![GitHub donate](https://img.shields.io/github/sponsors/clcmo?color=pink&style=for-the-badge)](https://github.com/sponsors/clcmo)
+[![GitHub license](https://img.shields.io/github/license/clcmo/vetores-matrizes?style=for-the-badge)](https://github.com/clcmo/vetores-matrizes)
+[![GitHub stars](https://img.shields.io/github/stars/clcmo/vetores-matrizes?style=for-the-badge)](https://github.com/clcmo/vetores-matrizes/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/clcmo/vetores-matrizes?style=for-the-badge)](https://github.com/clcmo/vetores-matrizes/network)
+[![GitHub issues](https://img.shields.io/github/issues/clcmo/vetores-matrizes?style=for-the-badge)](https://github.com/clcmo/vetores-matrizes/issues)
 
-Description about the project
+App Android (Kotlin + Jetpack Compose, arquitetura MVVM) que ensina vetores e matrizes com **passo a passo** em cada
+operação.
 
-Insert screenshot to inform what the visualization will be like
+## Sequência didática sugerida
 
-Licence: [MIT](LICENSE)
+1. **Vetores como setas** — mexa nos controles e veja a seta se mover no plano.
+2. **Soma, subtração e escalar** — regra do paralelogramo e "esticar/encolher/inverter".
+3. **Módulo e produto escalar** — comprimento, perpendicularidade e ângulo.
+4. **Matrizes como tabelas** — soma, subtração, escalar e transposta, elemento a elemento.
+5. **Multiplicação de matrizes** — linha × coluna, com a regra dos tamanhos.
+6. **Exercícios** — o aluno calcula, o app corrige e mostra o passo a passo.
+
+## Estrutura
+
+```
+app/src/main/java/com/clcmo/vetores-matrizes/
+├── domain/   # Matrix, Vec, MatrixOps, VectorOps — Kotlin puro, testável sem Android
+├── ui/       # ViewModels (estado) + telas Compose
+└── MainActivity.kt
+legacy/       # arquivos originais (matrizes.java, media.js)
+```
+
+## Como rodar
+
+1. Abra a pasta no Android Studio (ele gera o Gradle Wrapper e baixa o SDK).
+2. Rode os testes: `./gradlew :app:testDebugUnitTest`
+3. Execute no emulador ou celular.
+
+Licença: [MIT](../LICENCE)
